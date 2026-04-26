@@ -1,9 +1,9 @@
 # ── .NET / ASP.NET Core ──────────────────────────────────────────
 backend/bin/
 backend/obj/
-backend/*.db           # SQLite database — never commit this (it has user data)
-backend/*.db-shm
-backend/*.db-wal
+**/*.db                # SQLite database — never commit this (it has user data)
+**/*.db-shm
+**/*.db-wal
 
 # User-specific Visual Studio files
 *.user
