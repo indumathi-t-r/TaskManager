@@ -1,0 +1,24 @@
+# ── .NET / ASP.NET Core ──────────────────────────────────────────
+backend/bin/
+backend/obj/
+backend/*.db           # SQLite database — never commit this (it has user data)
+backend/*.db-shm
+backend/*.db-wal
+
+# User-specific Visual Studio files
+*.user
+*.suo
+.vs/
+
+# ── Node / React ─────────────────────────────────────────────────
+frontend/node_modules/ # Huge folder — npm install recreates it
+frontend/dist/         # Build output — generated, not source
+
+# ── Environment & Secrets ────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── OS files ─────────────────────────────────────────────────────
+.DS_Store              # Mac folder metadata
+Thumbs.db              # Windows folder metadata
